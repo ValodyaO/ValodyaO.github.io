@@ -1,0 +1,236 @@
+.big_div {
+    margin-top: 20px;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+
+/* ============ Header ============*/
+header {
+    margin-bottom: 20px;
+    padding: 12px 40px 12px 40px;
+    border-radius: 15px;
+    background-color: #70232F;
+
+    display: flex;
+}
+.header_text {
+    margin-left: 18px;
+    margin-top: 18.5px;
+    margin-bottom: 18.5px;
+
+    font-family: 'Montserrat Alternates';
+    font-weight: 600;
+    font-size: 32px;
+    color: white;
+}
+
+/* ============ MainBlock ============*/
+.main_block {
+    background-color: #EFEFEF;
+    border-radius: 15px;
+    padding: 40px;
+}
+
+/* ++++ navigation ++++*/
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+.button_font {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    color: #333333;
+}
+.button_back {
+    cursor: pointer;
+    display: flex;
+
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    
+    background-color: white;
+    border: none;
+}
+.button_on_map {
+    cursor: pointer;
+    display: flex;
+
+    width: 105px;
+
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    
+    background-color: white;
+    border: none;
+}
+/* ++++ title ++++*/
+.title_font {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 24px;
+    color: #2F050F;
+}
+.title_card {
+    display: flex;
+
+    margin-top: 20px;
+    padding: 20px;
+    
+    background-color: white;
+    border-radius: 5px;
+    border-top: 2px solid #70232F;
+}
+
+.centrovka {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title_nabor_otcrit {
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
+    border: 1px solid #D86B79;
+
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 12px;
+    color: #2F050F;
+}
+.title_cost {
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
+
+    background-color: #D86B79;
+    color: white;
+
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.title_info {
+    margin-top: 20px;
+}
+.title_info_box {
+    margin-top: 10px;
+
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+
+    display: flex;
+    align-items: center;
+}
+
+.tutle_zapisatsya_but {
+    float: right;
+
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    background-color: #70232F;
+
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+}
+
+/* ++++ группа ++++ */
+.group_theme_text {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 18px;
+
+    color: #70232F;
+    margin-bottom: 10px;
+}
+.group_etapi_podgotovki {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+
+    color: #333333;
+    margin-bottom: 10px;
+}
+.group_info_box {
+    margin-top: 10px;
+
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+
+    display: flex;
+    align-items: center;
+}
+
+/* Для отображения возможных занятий */
+.mini_container_li_TIME {
+    margin-top: 10px;
+
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+
+    display: flex;
+    align-items: center;
+}
+.ul{
+    list-style: none; 
+    padding: 0; 
+    margin: 0;
+}
+.li {
+    display: inline-block; 
+    margin-left: 10px;
+}
+.times {
+    margin-left: 10px;
+
+    border-radius: 5px;
+    padding: 4px 20px 4px 20px;
+
+    background-color: #F7DAAB;
+
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+
+    display: flex;
+}
+
+/* ++++ Описание ++++ */
+.descr_p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+
+    width: 1142px;
+}
+
+/* ++++ Содержание программы ++++ */
+.sodprog_text_h2 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+
+    color: #70232F;
+}
+.sodprog_main_text {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+
+    color: #000000;
+
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.sodprog_ul {
+    padding-left: 20px;
+    margin: 0px;
+}
